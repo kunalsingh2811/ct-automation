@@ -10,7 +10,7 @@
       <class name="jpetStoreckg.catalogueDetailPage2"/>
       <class name="jpetStoreckg.catalogueDetailPage3"/>
       <class name="jpetStoreckg.catalogueTest"/>
-      < !-- <class name="jpetStoreckg.loginTest"/> -->
+      <!-- class name="jpetStoreckg.loginTest"/ -->
       <class name="jpetStoreckg.signOut"/>
       <class name="jpetStoreckg.baseTestClass"/>
       <class name="jpetStoreckg.homePageNavigation"/>
