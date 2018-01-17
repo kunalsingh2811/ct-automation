@@ -20,7 +20,7 @@ public class BaseTest {
 	{
 		
 		Properties or = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\Administrator\\workspace\\jpet\\src\\test\\resources\\config.properites");
+		FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\config.properites");
 		or.load(fis);
 		
 		if((or.getProperty("browser")).equals("firefox")){
@@ -28,7 +28,7 @@ public class BaseTest {
 		}
 		else if ((or.getProperty("browser")).equals("chrome"))
 		{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\workspace\\Automation\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 			
 		}
